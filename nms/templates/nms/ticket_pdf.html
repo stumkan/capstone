@@ -1,0 +1,25 @@
+
+{% extends "nms/layout.html" %}
+
+{% block body %}
+
+<div class="header">
+    <h1>Ticket Report</h1>
+</div>
+<div class="content">
+    <p><strong>Ticket ID:</strong> {{ ticket.id }}</p>
+    <p><strong>Fault Start:</strong> {{ ticket.fault_start }}</p>
+    <p><strong>Fault End:</strong> {{ ticket.fault_end }}</p>
+    <p><strong>Assigned To:</strong> {{ ticket.assigned_to }}</p>
+    <p><strong>Region:</strong> {{ ticket.region }}</p>
+    <p><strong>Site A:</strong> {{ ticket.site_A }}</p>
+    <p><strong>Site B:</strong> {{ ticket.site_B }}</p>
+    <p><strong>Fault Type:</strong> {{ ticket.fault_type }}</p>
+
+    <p><strong>Summary:</strong></p>
+    <p>{{ ticket.summary }}</p>
+</div>
+
+
+
+{% endblock %}

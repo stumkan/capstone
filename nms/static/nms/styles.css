@@ -1,0 +1,111 @@
+/* pdf report styiling  */
+
+.header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.content {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+}
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #666;
+}
+
+
+/* links styles */
+
+.links{
+    list-style-type: none;
+}
+
+
+/* menu styling  */
+
+.main-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Notes styling */
+
+
+
+/* tickets styling */
+
+.ticket{
+    background-color: lightgrey;
+    padding: .2rem;
+    margin-top: .2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ticket-item{
+    text-decoration: none;
+}
+
+.ticket-item:active, .ticket-item:visited{
+    text-decoration: none;
+}
+
+.fault-start{
+    color: #cf201d;
+}
+
+.fault-end{    
+    color: #32d532;
+}
+
+.fault-type{    
+    color: #121312;
+}
+
+
+
+.comment{
+    background-color: rgb(240, 240, 233);
+}
+
+
+/* pop up alerts */
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.error {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+/* New ticket form validation script  */
+
+.invalid-feedback {
+    display: none;
+}
+.is-invalid ~ .invalid-feedback {
+    display: block;
+}
+.is-valid ~ .valid-feedback {
+    display: block;
+}
+
+/* New ticket form validation script  */
